@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div id="loader"></div>
+    <div id="wrap">
+        <header class="header">
+            <div class="fixed">
+                <a href="" class="logo"></a>
+                <div class="nav">
+                    <a href="">Home</a>
+                    <a href="">P2P Pay</a>
+                    <a href="">Support</a>
+                </div>
+                <div class="menu">
+                    <a href="#LiveGames" class="live">
+                        <svg width="14" height="20" viewBox="0 0 14 20">
+                            <path d="M0.814439 9.86832L7.2291 1.26961C7.86101 0.422554 9.15699 0.891319 9.15699 1.96694V7.17127C9.15699 7.79616 9.63987 8.30273 10.2355 8.30273H12.336C13.235 8.30273 13.7395 9.38881 13.1854 10.1315L6.77073 18.7302C6.13883 19.5773 4.84284 19.1085 4.84284 18.0329V12.8286C4.84284 12.2037 4.35997 11.6971 3.76431 11.6971H1.66379C0.764789 11.6971 0.260375 10.611 0.814439 9.86832Z" />
+                        </svg>
+                        Live
+                    </a>
+                    <a href="#Upcoming" class="upcoming">
+                        <svg width="14" height="20" viewBox="0 0 14 20">
+                            <path d="M10.6672 0.833252C12.9331 0.8336 14.226 3.42087 12.8665 5.23364L10.5295 8.34985C9.79622 9.32762 9.79624 10.6719 10.5295 11.6497L12.8665 14.7668C14.226 16.5796 12.9331 19.1659 10.6672 19.1663H3.33325C1.0674 19.1661 -0.226147 16.5797 1.13306 14.7668L3.47095 11.6497C4.20416 10.6719 4.20424 9.32758 3.47095 8.34985L1.13306 5.23364C-0.226579 3.42079 1.06725 0.8334 3.33325 0.833252H10.6672ZM5.24048 3.58325C4.47204 3.58341 4.04472 4.47237 4.52466 5.07251L6.28442 7.27173C6.65139 7.73043 7.3491 7.73043 7.71606 7.27173L9.47485 5.07251C9.95492 4.47243 9.52834 3.58362 8.76001 3.58325H5.24048Z" />
+                        </svg>
+                        Upcoming
+                    </a>
+                    <a href="#Completed" class="completed">
+                        <svg width="16" height="19" viewBox="0 0 16 19">
+                            <path d="M12.5837 17.813C12.5836 18.4614 11.928 18.9044 11.3259 18.6636L8.34058 17.4692C8.12217 17.3819 7.87832 17.382 7.65991 17.4692L4.67358 18.6636C4.07156 18.9042 3.41685 18.4613 3.41675 17.813V15.2124C3.59076 15.2551 3.77026 15.2847 3.95386 15.2993L4.81226 15.3677C4.94095 15.3779 5.06353 15.4286 5.16187 15.5122L5.81812 16.0718C7.07552 17.1431 8.92499 17.1431 10.1824 16.0718L10.8376 15.5122C10.9361 15.4283 11.0593 15.378 11.1882 15.3677L12.0466 15.2993C12.2302 15.2847 12.4098 15.2551 12.5837 15.2124V17.813ZM6.70972 1.30908C7.45328 0.67542 8.54721 0.67542 9.29077 1.30908L9.94604 1.86768C10.2646 2.13912 10.6607 2.30305 11.0779 2.33643L11.9373 2.40479C12.911 2.48258 13.6838 3.25619 13.7615 4.22998L13.8308 5.08838C13.8641 5.5057 14.028 5.90256 14.2996 6.22119L14.8582 6.87646C15.4918 7.62003 15.4918 8.71395 14.8582 9.45752L14.2996 10.1128C14.0281 10.4313 13.8642 10.8275 13.8308 11.2446L13.7615 12.104C13.6837 13.0777 12.9109 13.8504 11.9373 13.9282L11.0779 13.9976C10.6607 14.0309 10.2646 14.1949 9.94604 14.4663L9.29077 15.0249C8.54721 15.6586 7.45328 15.6586 6.70972 15.0249L6.05444 14.4663C5.73581 14.1948 5.33895 14.0309 4.92163 13.9976L4.06323 13.9282C3.08945 13.8505 2.31583 13.0778 2.23804 12.104L2.16968 11.2446C2.1363 10.8275 1.97238 10.4313 1.70093 10.1128L1.14233 9.45752C0.508671 8.71395 0.508671 7.62003 1.14233 6.87646L1.70093 6.22119C1.97247 5.90256 2.13638 5.5057 2.16968 5.08838L2.23804 4.22998C2.31575 3.25613 3.08938 2.4825 4.06323 2.40479L4.92163 2.33643C5.33895 2.30312 5.73581 2.13921 6.05444 1.86768L6.70972 1.30908Z"/>
+                        </svg>
+                        Completed
+                    </a>
+                </div>
+                <div class="login">
+                    <a href="" class="SignIn">Sign In</a>
+                    <a href="" class="SignUp">Sign Up</a>
+                </div>
+            </div>
+        </header>
+        <main class="container fixed">
+           <div class="Profile">
+               <div class="Profile-panel">
+                   <div class="Profile-bg">
+                       <div class="Profile-bg_Your_Link">
+                            <div class="Profile-bg_Your_Link_Item Dop Avatar">
+                                <a href="" class="Profile-Logout">
+                                    <svg width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M8.75 0C11.3734 0 13.5 2.12665 13.5 4.75V5.25C13.5 5.66421 13.1642 6 12.75 6C12.3358 6 12 5.66421 12 5.25V4.75C12 2.95507 10.5449 1.5 8.75 1.5H4.75C2.95507 1.5 1.5 2.95507 1.5 4.75V14.75C1.5 16.5449 2.95507 18 4.75 18H8.75C10.5449 18 12 16.5449 12 14.75V14.25C12 13.8358 12.3358 13.5 12.75 13.5C13.1642 13.5 13.5 13.8358 13.5 14.25V14.75C13.5 17.3734 11.3734 19.5 8.75 19.5H4.75C2.12665 19.5 0 17.3734 0 14.75V4.75C0 2.12665 2.12665 0 4.75 0H8.75ZM15.2197 6.21973C15.5126 5.92683 15.9874 5.92683 16.2803 6.21973L19.2803 9.21973C19.5732 9.51262 19.5732 9.98738 19.2803 10.2803L16.2803 13.2803C15.9874 13.5732 15.5126 13.5732 15.2197 13.2803C14.9268 12.9874 14.9268 12.5126 15.2197 12.2197L16.9395 10.5H6.75C6.33579 10.5 6 10.1642 6 9.75C6 9.33579 6.33579 9 6.75 9H16.9395L15.2197 7.28027C14.9268 6.98738 14.9268 6.51262 15.2197 6.21973Z" fill="#59627E" />
+                                    </svg>
+                                </a>
+                                <a href="">
+                                    <img src="images/ava.jpg" alt="" class="Ava">
+                                </a>
+                                <p class="nth-1">Step3 Designer Web Site</p>
+                                <p class="nth-2">ID: 3160</p>
+                            </div>
+                           <div class="Profile-bg_Your_Link_Item">
+                               <p>
+                                    Balance:
+                                    <span class="Profile-Balance_summ">230</span>
+                                    <span class="Profile-Balance_rub">₽</span>
+                                </p>
+                                <p>
+                                    <a href="" class="mini-profile_balance_ico" style="margin:0;">
+                                        <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                            <path fill-rule="evenodd" clip-rule="evenodd" d="M0.758048 0.650678C0.461555 0.887872 0.413484 1.32051 0.650678 1.617L3.97376 5.77086L0.650678 9.92472C0.413484 10.2212 0.461554 10.6538 0.758047 10.891C1.05454 11.1282 1.48718 11.0802 1.72437 10.7837L5.39104 6.20034C5.59191 5.94925 5.59191 5.59247 5.39104 5.34138L1.72437 0.758048C1.48718 0.461555 1.05454 0.413484 0.758048 0.650678Z" fill="white" stroke="white" stroke-linecap="round" stroke-linejoin="round"></path>
+                                        </svg>
+                                    </a>
+                                </p>
+                           </div>
+                           <div class="Profile-bg_Your_Link_Item Dop VKontakte">
+                                <a href="" class="VKontakt"></a>
+                                <p class="nth-1">VKontakte</p>
+                                <p class="nth-2">Linked to VKontakte page</p>
+                            </div>
+                           <div class="Profile-bg_Your_Link_Item">
+                               <p>Registration Date:</p>
+                               <p>01.01.2001</p>
+                           </div>
+                       </div>
+                   </div>
+                   <div class="Profile-bg">
+                       <div class="Profile-bg_Your_Title">Your affiliate link</div>
+                       <ul class="Profile-bg_Your_Link">
+                           <li class="Profile-bg_Your_Link_Item">
+                               s1b.org/p/3160
+                           </li>
+                           <li class="Profile-bg_Your_Link_Item">
+                               <p>
+                                    <svg width="14" height="14" viewBox="0 0 14 14" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M5.10436 0.942761C5.64069 1.56498 5.90885 2.40718 5.90885 3.46936C5.90885 4.53154 5.64069 5.37688 5.10436 6.00539C4.56803 6.63389 3.84985 6.94815 2.9498 6.94815C2.04976 6.94815 1.33157 6.63389 0.795244 6.00539C0.265081 5.37688 0 4.53154 0 3.46936C0 2.40718 0.265081 1.56498 0.795244 0.942761C1.33157 0.314254 2.04976 0 2.9498 0C3.84985 0 4.56803 0.314254 5.10436 0.942761ZM2.9498 5.46801C3.29502 5.46801 3.56319 5.29203 3.75429 4.94007C3.95156 4.58182 4.0502 4.09158 4.0502 3.46936C4.0502 2.84085 3.95156 2.35062 3.75429 1.99865C3.56319 1.6404 3.29502 1.46128 2.9498 1.46128C2.61074 1.46128 2.34258 1.6404 2.14531 1.99865C1.95421 2.35062 1.85865 2.84085 1.85865 3.46936C1.85865 4.09158 1.95421 4.58182 2.14531 4.94007C2.34258 5.29203 2.61074 5.46801 2.9498 5.46801ZM3.13474 13.8303H1.11889L10.8745 0.226263H12.8719L3.13474 13.8303ZM13.1955 7.99461C13.7318 8.62312 14 9.46846 14 10.5306C14 11.5928 13.7318 12.4382 13.1955 13.0667C12.6592 13.6889 11.941 14 11.041 14C10.1409 14 9.42272 13.6889 8.88639 13.0667C8.35623 12.4382 8.09115 11.5928 8.09115 10.5306C8.09115 9.46846 8.35623 8.62312 8.88639 7.99461C9.42272 7.36611 10.1409 7.05185 11.041 7.05185C11.941 7.05185 12.6592 7.36611 13.1955 7.99461ZM10.2365 11.9919C10.4337 12.3502 10.7019 12.5293 11.041 12.5293C11.38 12.5293 11.6482 12.3502 11.8454 11.9919C12.0427 11.6337 12.1413 11.1434 12.1413 10.5212C12.1413 9.89899 12.0427 9.40875 11.8454 9.05051C11.6482 8.69226 11.38 8.51313 11.041 8.51313C10.7019 8.51313 10.4337 8.69226 10.2365 9.05051C10.0454 9.40875 9.9498 9.89899 9.9498 10.5212C9.9498 11.1434 10.0454 11.6337 10.2365 11.9919Z" fill="#59627E" />
+                                    </svg>
+                                   Your percentage
+                               </p>
+                               <p class="wh">4%</p>
+                           </li>
+                           <li class="Profile-bg_Your_Link_Item">
+                               <p>
+                                    <svg width="13" height="17" viewBox="0 0 13 17" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M6.41699 9.16699C9.96048 9.16709 12.8327 10.8082 12.833 12.833C12.833 14.858 9.96067 16.4999 6.41699 16.5C2.87316 16.5 0 14.8581 0 12.833C0.000308224 10.8081 2.87336 9.16699 6.41699 9.16699ZM6.41699 0C8.44189 0.00017587 10.083 1.64206 10.083 3.66699C10.0828 5.69178 8.44178 7.33283 6.41699 7.33301C4.39206 7.33301 2.75018 5.69189 2.75 3.66699C2.75 1.64195 4.39195 0 6.41699 0Z" fill="#59627E" />
+                                    </svg>
+                                   Users attracted
+                               </p>
+                               <p class="wh">0</p>
+                           </li>
+                           <li class="Profile-bg_Your_Link_Item">
+                               <p>
+                                    <svg width="11" height="13" viewBox="0 0 11 13" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M4.13778 1.9009V6.35135H5.95097C6.80023 6.35135 7.44801 6.15616 7.89434 5.76577C8.34066 5.36937 8.56382 4.81982 8.56382 4.11712C8.56382 3.42643 8.34066 2.88589 7.89434 2.4955C7.44801 2.0991 6.80332 1.9009 5.96027 1.9009H4.13778ZM7.85714 11.1441H4.13778V13H1.7388V11.1441H0V9.63063H1.7388V8.15315H0V6.36937H1.7388V0H6.64835C7.94393 0 8.99155 0.384384 9.79121 1.15315C10.5971 1.92192 11 2.9039 11 4.0991C11 5.28829 10.5878 6.26727 9.76331 7.03604C8.93886 7.7988 7.86644 8.18018 6.54607 8.18018H4.13778V9.63063H7.85714V11.1441Z" fill="#59627E" />
+                                    </svg>
+                                   Earned from referrals
+                               </p>
+                               <p class="wh">
+                                   0 ₽
+                               </p>
+                           </li>
+                           <li class="Profile-bg_Your_Link_Item">
+                               <p>
+                                    <svg width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: translate(0px, -1px);">
+                                        <path d="M-3.50587e-07 9.85449C-4.55701e-07 7.44975 1.94975 5.5 4.35449 5.5L4.8125 5.5C5.1922 5.5 5.5 5.8078 5.5 6.1875C5.5 6.56719 5.19219 6.875 4.8125 6.875L4.35449 6.875C2.70914 6.875 1.375 8.20914 1.375 9.85449L1.375 13.5205C1.375 15.1659 2.70914 16.5 4.35449 16.5L13.5205 16.5C15.1659 16.5 16.5 15.1659 16.5 13.5205L16.5 9.85449C16.5 8.20914 15.1659 6.875 13.5205 6.875L13.0625 6.875C12.6828 6.875 12.375 6.56719 12.375 6.1875C12.375 5.8078 12.6828 5.5 13.0625 5.5L13.5205 5.5C15.9252 5.5 17.875 7.44975 17.875 9.85449L17.875 13.5205C17.875 15.9252 15.9252 17.875 13.5205 17.875L4.35449 17.875C1.94975 17.875 -8.52264e-08 15.9252 -1.90341e-07 13.5205L-3.50587e-07 9.85449ZM5.70117 9.42383C5.43269 9.15534 5.43269 8.71966 5.70117 8.45117C5.96966 8.18269 6.40534 8.18269 6.67383 8.45117L8.25 10.0273L8.25 0.6875C8.25 0.307804 8.5578 -3.74074e-07 8.9375 -3.90671e-07C9.3172 -4.07268e-07 9.625 0.307804 9.625 0.6875L9.625 10.0273L11.2012 8.45117C11.4697 8.18269 11.9053 8.18269 12.1738 8.45117C12.4423 8.71966 12.4423 9.15534 12.1738 9.42383L9.42383 12.1738C9.15534 12.4423 8.71966 12.4423 8.45117 12.1738L5.70117 9.42383Z" fill="#59627E" />
+                                    </svg>
+                                   Total deposits
+                               </p>
+                               <p class="wh">0 ₽</p>
+                           </li>
+                       </ul>
+                   </div>
+               </div>
+               <div class="Profile-grid">
+                   <div class="Profile-IteM">
+                       <div class="Profile-IteM_panel">
+                           <div class="Profile-IteM_panel_pole">
+                               <div class="Profile-IteM_panel_team">
+                                   Team One
+                                   <span class="vs">VS</span>
+                                   Team Two
+                               </div>
+                               <div class="Pre-Match">
+                                   Pre-Match
+                               </div>
+                           </div>
+                           <div class="Profile-IteM_panel_bet_accepted">
+                               Bet accepted 04.06 11:43
+                           </div>
+                       </div>
+                       <div class="Profile-IteM_bg">
+                           <div class="Profile-IteM_bg_flex">
+                               <div class="item-info_Team_IMG">
+                                    <img src="images/g2-esports-1024x576.png" alt="">
+                                </div>
+                                <div class="Profile-IteM_bg_flex_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                    <div class="Profile-IteM_bg_flex_date">04.06 11:55</div>
+                                </div>
+                                <div class="item-info_Team_IMG">
+                                    <img src="images/g2-esports-1024x576.png" alt="">
+                                </div>
+                           </div>
+                           <div class="modal-item_Selected_bg">
+                                <div class="modal-item_Selected_name">Team One</div>
+                                <img class="modal-item_Selected_img" src="images/g2-esports-1024x576.png" alt="">
+                            </div>
+                            <div class="Profile-IteM_bg_bet">
+                                Bet:
+                                <span>5 000.00 ₽</span>
+                            </div>
+                            <div class="modal-item_Selected_bg_info green">
+                                <p>Ставка выплачена</p>
+                                <p>+ 45 028.00 ₽</p>
+                            </div>
+                       </div>
+                   </div>
+                   <div class="Profile-IteM">
+                       <div class="Profile-IteM_panel">
+                           <div class="Profile-IteM_panel_pole">
+                               <div class="Profile-IteM_panel_team">
+                                   Team One
+                                   <span class="vs">VS</span>
+                                   Team Two
+                               </div>
+                               <div class="Pre-Match">
+                                   Pre-Match
+                               </div>
+                           </div>
+                           <div class="Profile-IteM_panel_bet_accepted">
+                               Bet accepted 04.06 11:43
+                           </div>
+                       </div>
+                       <div class="Profile-IteM_bg">
+                           <div class="Profile-IteM_bg_flex">
+                               <div class="item-info_Team_IMG">
+                                    <img src="images/g2-esports-1024x576.png" alt="">
+                                </div>
+                                <div class="Profile-IteM_bg_flex_c">
+                                    <div class="item-panel_game dota2">
+                                        DOTA 2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                    <div class="Profile-IteM_bg_flex_date">04.06 11:55</div>
+                                </div>
+                                <div class="item-info_Team_IMG">
+                                    <img src="images/g2-esports-1024x576.png" alt="">
+                                </div>
+                           </div>
+                           <div class="modal-item_Selected_bg">
+                                <div class="modal-item_Selected_name">Team One</div>
+                                <img class="modal-item_Selected_img" src="images/g2-esports-1024x576.png" alt="">
+                            </div>
+                            <div class="Profile-IteM_bg_bet">
+                                Bet:
+                                <span>5 000.00 ₽</span>
+                            </div>
+                            <div class="modal-item_Selected_bg_info red">
+                                <p>Ставка не прошла</p>
+                                <p>- 45 028.00 ₽</p>
+                            </div>
+                       </div>
+                   </div>
+                   <div class="Profile-IteM">
+                       <div class="Profile-IteM_panel">
+                           <div class="Profile-IteM_panel_pole">
+                               <div class="Profile-IteM_panel_team">
+                                   Team One
+                                   <span class="vs">VS</span>
+                                   Team Two
+                               </div>
+                               <div class="Pre-Match">
+                                   Pre-Match
+                               </div>
+                           </div>
+                           <div class="Profile-IteM_panel_bet_accepted">
+                               Bet accepted 04.06 11:43
+                           </div>
+                       </div>
+                       <div class="Profile-IteM_bg">
+                           <div class="Profile-IteM_bg_flex">
+                               <div class="item-info_Team_IMG">
+                                    <img src="images/g2-esports-1024x576.png" alt="">
+                                </div>
+                                <div class="Profile-IteM_bg_flex_c">
+                                    <div class="item-panel_game dota2">
+                                        DOTA 2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                    <div class="Profile-IteM_bg_flex_date">04.06 11:55</div>
+                                </div>
+                                <div class="item-info_Team_IMG">
+                                    <img src="images/g2-esports-1024x576.png" alt="">
+                                </div>
+                           </div>
+                           <div class="modal-item_Selected_bg">
+                                <div class="modal-item_Selected_name">Team One</div>
+                                <img class="modal-item_Selected_img" src="images/g2-esports-1024x576.png" alt="">
+                            </div>
+                            <div class="Profile-IteM_bg_bet">
+                                Bet:
+                                <span>5 000.00 ₽</span>
+                            </div>
+                            <div class="modal-item_Selected_bg_info red">
+                                <p>Ставка не прошла</p>
+                                <p>- 45 028.00 ₽</p>
+                            </div>
+                       </div>
+                   </div>
+                   <div class="Profile-IteM">
+                       <div class="Profile-IteM_panel">
+                           <div class="Profile-IteM_panel_pole">
+                               <div class="Profile-IteM_panel_team">
+                                   Team One
+                                   <span class="vs">VS</span>
+                                   Team Two
+                               </div>
+                               <div class="Pre-Match">
+                                   Pre-Match
+                               </div>
+                           </div>
+                           <div class="Profile-IteM_panel_bet_accepted">
+                               Bet accepted 04.06 11:43
+                           </div>
+                       </div>
+                       <div class="Profile-IteM_bg">
+                           <div class="Profile-IteM_bg_flex">
+                               <div class="item-info_Team_IMG">
+                                    <img src="images/g2-esports-1024x576.png" alt="">
+                                </div>
+                                <div class="Profile-IteM_bg_flex_c">
+                                    <div class="item-panel_game dota2">
+                                        DOTA 2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                    <div class="Profile-IteM_bg_flex_date">04.06 11:55</div>
+                                </div>
+                                <div class="item-info_Team_IMG">
+                                    <img src="images/g2-esports-1024x576.png" alt="">
+                                </div>
+                           </div>
+                           <div class="modal-item_Selected_bg">
+                                <div class="modal-item_Selected_name">Team One</div>
+                                <img class="modal-item_Selected_img" src="images/g2-esports-1024x576.png" alt="">
+                            </div>
+                            <div class="Profile-IteM_bg_bet">
+                                Bet:
+                                <span>5 000.00 ₽</span>
+                            </div>
+                            <div class="modal-item_Selected_bg_info red">
+                                <p>Ставка не прошла</p>
+                                <p>- 45 028.00 ₽</p>
+                            </div>
+                       </div>
+                   </div>
+               </div>
+           </div>
+        </main>
+        <footer class="footer">
+            <div class="fixed">
+                <div class="footer-pole">
+                    <div class="footer-logo"></div>
+                    <p class="footer-txt">
+                        © 2022-2025. Cybersport betting. All rights reserved. By placing bets, you agree to the user <a href="">agreement</a>.
+                    </p>
+                </div>
+                <div class="footer-nav">
+                    <p class="footer-nav_title">
+                        Support
+                    </p>
+                    <div class="footer-nav_list">
+                        <a href="">Telegram</a>
+                        <a href="">Online Support</a>
+                        <a href="">Support@s1b.org</a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <p class="footer-nav_title">
+                        xSibBet
+                    </p>
+                    <div class="footer-nav_list">
+                        <a href="">Terms of Service</a>
+                        <a href="">Privacy</a>
+                        <a href="">Responsible Gaming</a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <p class="footer-nav_title">
+                        Information
+                    </p>
+                    <div class="footer-nav_list">
+                        <a href="">F.A.Q</a>
+                        <a href="">Bonuses</a>
+                    </div>
+                </div>
+                <div class="footer-ico">
+                    <a href="">
+                        <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 14C19.9999 16.209 18.209 17.9999 16 18H4C1.79092 18 9.4449e-05 16.2091 0 14V5.96289L7.05957 11.0977C8.81269 12.3723 11.1874 12.3724 12.9404 11.0977L20 5.96289V14ZM16 0C18.0441 8.75745e-05 19.7283 1.53347 19.9688 3.5127L11.7646 9.48047C10.7128 10.2454 9.28727 10.2454 8.23535 9.48047L0.0302734 3.5127C0.27065 1.53338 1.9558 0 4 0H16Z" fill="#171A24" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: translate(-1px, 0px);">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.48757 7.76343C7.31847 5.23115 11.2002 3.54852 13.1494 2.73219C18.6971 0.416493 19.8632 0.0166597 20.6129 0C20.7795 0 21.146 0.0333197 21.3959 0.233236C21.5959 0.399834 21.6458 0.61641 21.6792 0.783008C21.7125 0.949605 21.7458 1.29946 21.7125 1.56601C21.4126 4.73136 20.1131 12.4115 19.4468 15.9434C19.1635 17.4427 18.6138 17.9425 18.0807 17.9925C16.9145 18.0925 16.0315 17.2262 14.9153 16.4931C13.1494 15.3436 12.1665 14.6272 10.4505 13.4944C8.46799 12.1949 9.75079 11.4786 10.8837 10.3124C11.1835 10.0125 16.2981 5.34777 16.398 4.93128C16.4147 4.8813 16.4147 4.68138 16.2981 4.58142C16.1814 4.48147 16.0148 4.51479 15.8816 4.5481C15.6983 4.58142 12.8995 6.44731 7.45175 10.1291C6.65208 10.6789 5.93572 10.9454 5.28599 10.9288C4.56962 10.9121 3.20352 10.5289 2.17062 10.1958C0.921139 9.79592 -0.0784445 9.57934 0.00485417 8.87963C0.0548333 8.51312 0.554625 8.14661 1.48757 7.76343Z" fill="#171A24" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>

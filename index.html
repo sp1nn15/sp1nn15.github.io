@@ -1,201 +1,1622 @@
 <!DOCTYPE html>
 <html lang="ru">
-	<head>
-		<title>Главная</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
-		<link rel="stylesheet" href="css/style.css" />
-		<link rel="stylesheet" href="css/media.css" />
-		<script src="js/jquery-1.9.1.js"></script>
-		<script src="js/owl.carousel.min.js"></script>
-		<script src="js/script.js"></script>
-	</head>
-	<body>
-		<div class="wrapper">
-			<div class="main">
-				<div class="main-bg"></div>
-				<div class="full">
-					<a href="" class="logo">
-						<img src="img/logo.svg" class="logo-img" alt="">
-						<span class="logo-text">
-							<p>Клуб</p>
-							<p>четырех коней</p>
-						</span>
-					</a>
-					<div class="main-title">
-						<p>Превратите</p> 
-						<p>уездный город</p>
-						<p>в столицу</p>
-						<p>земного шара</p>
-					</div>
-					<div class="main-text">
-						Оплатите взнос на телеграммы для организации Международного васюкинского турнира по шахматам
-					</div>
-					<div class="main-btn">
-						<a href="#thought" class="btn-1">
-							<p>Поддержать</p>
-							<p>шахматную мысль</p>
-						</a>
-						<a href="#more" class="btn-2">
-							<p>Подробнее</p>
-							<p>о турнире</p>
-						</a>
-					</div>
-				</div>
-			</div>
-			<div class="running-line">
-				<marquee direction="left" scrollamount="10" behavior="alternate">
-					Дело помощи утопающим — дело рук самих утопающих!
-					<span></span>
-					Шахматы двигают вперед не только культуру, но и экономику!
-					<span></span>
-					Лед тронулся, господа присяжные заседатели!
-					<span></span>
-					Дело помощи утопающим — дело рук самих утопающих!
-					<span></span>
-					Шахматы двигают вперед не только культуру, но и экономику!
-					<span></span>
-					Лед тронулся, господа присяжные заседатели!
-				</marquee>
-			</div>
-			<div class="about full" id="thought">
-				<div class="about-txt">
-					Чтобы поддержать Международный васюкинский турнир 
-					<img src="img/about-img.png" class="about-img" alt="">
-					посетите лекцию на тему:
-					<span class="about-red">«Плодотворная дебютная идея»</span>
-				</div>
-				<div class="about-info">
-					<img class="about-info-img" src="img/about-flex-img.png" />
-					<div class="about-info-title">
-						и Сеанс <span class="about-red">одновременной игры в шахматы на 160 досках</span> гроссмейстера О. Бендера
-					</div>
-					<ul class="about-info-list">
-						<li>
-							<p>Место проведения:</p>
-							<p>Клуб «Картонажник»</p>
-						</li>
-						<li>
-							<p>Дата и время мероприятия:</p>
-							<p>22 июня 1927 г. в 18:00</p>
-						</li>
-						<li>
-							<p>Стоимость входных билетов:</p>
-							<p>20 коп.</p>
-						</li>
-						<li>
-							<p>Плата за игру:</p>
-							<p>50 коп.</p>
-						</li>
-						<li>
-							<p>Взнос на телеграммы:</p>
-							<p><span class="about-uline">100 руб.</span> 21 руб. 16 коп.</p>
-						</li>
-					</ul>
-					<div class="about-info-txt">
-						По всем вопросам обращаться в администрацию к К. Михельсону
-					</div>
-				</div>
-			</div>
-			<div class="stages full" id="more">
-				<div class="stages-title">
-					Этапы преображения Васюков
-					<span>Будущие источники обогащения васюкинцев</span>
-				</div>
-				<div class="grid-wrap"></div>
-				<div class="tournament-page grid-page" style="display: none;">
-					<a href="#" class="tournament-page-btn tournament-page-prev" onclick="$('.carousel-3 .owl-prev').click(); return false;">
-						<svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: relative;left: -2px;">
-							<path d="M10.5382 18.4615L2.07666 9.99995L10.5382 1.53841" stroke="white" stroke-width="2" stroke-linecap="square"/>
-						</svg>
-					</a>
-					<ul class="rows">
-					</ul>
-					<a href="#" class="tournament-page-btn tournament-page-next" onclick="$('.carousel-3 .owl-next').click(); return false;">
-						<svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: relative;right: -2px;">
-							<path d="M1.4618 1.53839L9.92334 9.99993L1.4618 18.4615" stroke="white" stroke-width="2" stroke-linecap="square"/>
-						</svg>
-					</a>
-				</div>
-			</div>
-			<div class="tournament full">
-				<div class="tournament-title">
-					Участники турнира
-				</div>
-				<div class="tournament-slider full">
-					<div class="tournament-item">
-						<img src="img/ava.png" alt="" class="tournament-item-ava">
-						<div class="tournament-item-name">Хозе-Рауль Капабланка</div>
-						<div class="tournament-item-info">Чемпион мира по шахматам</div>
-						<a href="#" class="tournament-item-btn">Подробнее</a>
-					</div>
-					<div class="tournament-item">
-						<img src="img/ava.png" alt="" class="tournament-item-ava">
-						<div class="tournament-item-name">Эммануил Ласкер</div>
-						<div class="tournament-item-info">Чемпион мира по шахматам</div>
-						<a href="#" class="tournament-item-btn">Подробнее</a>
-					</div>
-					<div class="tournament-item">
-						<img src="img/ava.png" alt="" class="tournament-item-ava">
-						<div class="tournament-item-name">Александр Алехин</div>
-						<div class="tournament-item-info">Чемпион мира по шахматам</div>
-						<a href="#" class="tournament-item-btn">Подробнее</a>
-					</div>
-					<div class="tournament-item">
-						<img src="img/ava.png" alt="" class="tournament-item-ava">
-						<div class="tournament-item-name">Арон Нимцович</div>
-						<div class="tournament-item-info">Чемпион мира по шахматам</div>
-						<a href="#" class="tournament-item-btn">Подробнее</a>
-					</div>
-					<div class="tournament-item">
-						<img src="img/ava.png" alt="" class="tournament-item-ava">
-						<div class="tournament-item-name">Рихард Рети</div>
-						<div class="tournament-item-info">Чемпион мира по шахматам</div>
-						<a href="#" class="tournament-item-btn">Подробнее</a>
-					</div>
-					<div class="tournament-item">
-						<img src="img/ava.png" alt="" class="tournament-item-ava">
-						<div class="tournament-item-name">Остап Бендер</div>
-						<div class="tournament-item-info">Чемпион мира по шахматам</div>
-						<a href="#" class="tournament-item-btn">Подробнее</a>
-					</div>
-				</div>
-				<div class="tournament-page">
-					<a href="#" class="tournament-page-btn tournament-page-prev" onclick="$('.carousel-2 .owl-prev').click(); return false;">
-						<svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: relative;left: -2px;">
-							<path d="M10.5382 18.4615L2.07666 9.99995L10.5382 1.53841" stroke="white" stroke-width="2" stroke-linecap="square"/>
-						</svg>
-					</a>
-					<div class="tournament-page-txt">
-						
-					</div>
-					<a href="#" class="tournament-page-btn tournament-page-next" onclick="$('.carousel-2 .owl-next').click(); return false;">
-						<svg width="12" height="20" viewBox="0 0 12 20" fill="none" xmlns="http://www.w3.org/2000/svg" style="position: relative;right: -2px;">
-							<path d="M1.4618 1.53839L9.92334 9.99993L1.4618 18.4615" stroke="white" stroke-width="2" stroke-linecap="square"/>
-						</svg>
-					</a>
-				</div>
-			</div>
-			<div class="running-line">
-				<marquee direction="right" scrollamount="10" behavior="alternate">
-					Дело помощи утопающим — дело рук самих утопающих!
-					<span></span>
-					Шахматы двигают вперед не только культуру, но и экономику!
-					<span></span>
-					Лед тронулся, господа присяжные заседатели!
-					<span></span>
-					Дело помощи утопающим — дело рук самих утопающих!
-					<span></span>
-					Шахматы двигают вперед не только культуру, но и экономику!
-					<span></span>
-					Лед тронулся, господа присяжные заседатели!
-				</marquee>
-			</div>
-			<div class="footer">
-				<div class="full">
-					Все персонажи, события и цитаты являются вымышленными и не принадлежат создателям сайта. С подробностями можно познакомиться в главе XXXIV романа Ильи Ильфа и Евгения Петрова «Двенадцать стульев».
-				</div>
-			</div>
-		</div>
-	</body>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+    <script src="js/jquery-1.9.1.js"></script>
+    <script src="js/script.js"></script>
+</head>
+<body>
+    <div id="modal" style="display: none;">
+        <div id="modal-overlay" onclick="modal('close');"></div>
+        <div id="modal-item" data-modal="bet" style="max-width: 552px; display: none;">
+            <div class="modal-bet_top">
+                <div class="modal-bet_top_summ">
+                    <input type="number" class="modal-bet_top_val" value="1000" min="0" step="100">
+                    <div class="modal-bet_top_rub">₽</div>
+                </div>
+                <div class="modal-bet_Potential_winning">
+                    Potential winning: + 2 000 ₽
+                </div>
+                <div class="modal-bet_max">
+                    MAX
+                </div>
+            </div>
+            <div class="item">
+                <div class="itam-panel">
+                    <div class="item-panel_l">
+                        <div class="item-panel_info">
+                            Upcoming
+                        </div>
+                    </div>
+                    <div class="item-panel_c">
+                        <div class="item-panel_game cs2">
+                            cs2
+                        </div>
+                        <div class="item-panel_txt">
+                            Best of 3
+                        </div>
+                    </div>
+                    <div class="item-panel_r">
+                        <div class="item-panel_time">
+                            23.06 20:00
+                        </div>
+                    </div>
+                </div>
+                <div class="item-info">
+                    <div class="item-info_Team">
+                        <div class="item-info_Team_IMG">
+                            <img src="images/g2-esports-1024x576.png" alt="">
+                        </div>
+                        <div class="item-info_Team_NAME">
+                            Team One
+                        </div>
+                    </div>
+                    <div class="item-info_Team">
+                        <div class="item-info_Team_IMG">
+                            <img src="images/g2-esports-1024x576.png" alt="">
+                        </div>
+                        <div class="item-info_Team_NAME">
+                            Team Two
+                        </div>
+                    </div>
+                    <div class="item-info_CENTER">
+                        <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                           0.82
+                        </div>
+                        <div class="item-info_line"></div>
+                        <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                           0.82
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="modal-item_Selected">
+                <div class="modal-item_Selected_title">Selected:</div>
+                <div class="modal-item_Selected_bg">
+                    <div class="modal-item_Selected_name">Team One</div>
+                    <img class="modal-item_Selected_img" src="images/g2-esports-1024x576.png" alt="">
+                </div>
+            </div>
+            <div class="btn modal-item_btn">
+                Place a Bet
+            </div>
+        </div>
+    </div>
+    <div id="loader"></div>
+    <div id="wrap">
+        <header class="header">
+            <div class="fixed">
+                <a href="" class="logo"></a>
+                <div class="nav">
+                    <a href="">Home</a>
+                    <a href="">P2P Pay</a>
+                    <a href="">Support</a>
+                </div>
+                <div class="menu">
+                    <a href="#LiveGames" class="live">
+                        <svg width="14" height="20" viewBox="0 0 14 20">
+                            <path d="M0.814439 9.86832L7.2291 1.26961C7.86101 0.422554 9.15699 0.891319 9.15699 1.96694V7.17127C9.15699 7.79616 9.63987 8.30273 10.2355 8.30273H12.336C13.235 8.30273 13.7395 9.38881 13.1854 10.1315L6.77073 18.7302C6.13883 19.5773 4.84284 19.1085 4.84284 18.0329V12.8286C4.84284 12.2037 4.35997 11.6971 3.76431 11.6971H1.66379C0.764789 11.6971 0.260375 10.611 0.814439 9.86832Z" />
+                        </svg>
+                        Live
+                    </a>
+                    <a href="#Upcoming" class="upcoming">
+                        <svg width="14" height="20" viewBox="0 0 14 20">
+                            <path d="M10.6672 0.833252C12.9331 0.8336 14.226 3.42087 12.8665 5.23364L10.5295 8.34985C9.79622 9.32762 9.79624 10.6719 10.5295 11.6497L12.8665 14.7668C14.226 16.5796 12.9331 19.1659 10.6672 19.1663H3.33325C1.0674 19.1661 -0.226147 16.5797 1.13306 14.7668L3.47095 11.6497C4.20416 10.6719 4.20424 9.32758 3.47095 8.34985L1.13306 5.23364C-0.226579 3.42079 1.06725 0.8334 3.33325 0.833252H10.6672ZM5.24048 3.58325C4.47204 3.58341 4.04472 4.47237 4.52466 5.07251L6.28442 7.27173C6.65139 7.73043 7.3491 7.73043 7.71606 7.27173L9.47485 5.07251C9.95492 4.47243 9.52834 3.58362 8.76001 3.58325H5.24048Z" />
+                        </svg>
+                        Upcoming
+                    </a>
+                    <a href="#Completed" class="completed">
+                        <svg width="16" height="19" viewBox="0 0 16 19">
+                            <path d="M12.5837 17.813C12.5836 18.4614 11.928 18.9044 11.3259 18.6636L8.34058 17.4692C8.12217 17.3819 7.87832 17.382 7.65991 17.4692L4.67358 18.6636C4.07156 18.9042 3.41685 18.4613 3.41675 17.813V15.2124C3.59076 15.2551 3.77026 15.2847 3.95386 15.2993L4.81226 15.3677C4.94095 15.3779 5.06353 15.4286 5.16187 15.5122L5.81812 16.0718C7.07552 17.1431 8.92499 17.1431 10.1824 16.0718L10.8376 15.5122C10.9361 15.4283 11.0593 15.378 11.1882 15.3677L12.0466 15.2993C12.2302 15.2847 12.4098 15.2551 12.5837 15.2124V17.813ZM6.70972 1.30908C7.45328 0.67542 8.54721 0.67542 9.29077 1.30908L9.94604 1.86768C10.2646 2.13912 10.6607 2.30305 11.0779 2.33643L11.9373 2.40479C12.911 2.48258 13.6838 3.25619 13.7615 4.22998L13.8308 5.08838C13.8641 5.5057 14.028 5.90256 14.2996 6.22119L14.8582 6.87646C15.4918 7.62003 15.4918 8.71395 14.8582 9.45752L14.2996 10.1128C14.0281 10.4313 13.8642 10.8275 13.8308 11.2446L13.7615 12.104C13.6837 13.0777 12.9109 13.8504 11.9373 13.9282L11.0779 13.9976C10.6607 14.0309 10.2646 14.1949 9.94604 14.4663L9.29077 15.0249C8.54721 15.6586 7.45328 15.6586 6.70972 15.0249L6.05444 14.4663C5.73581 14.1948 5.33895 14.0309 4.92163 13.9976L4.06323 13.9282C3.08945 13.8505 2.31583 13.0778 2.23804 12.104L2.16968 11.2446C2.1363 10.8275 1.97238 10.4313 1.70093 10.1128L1.14233 9.45752C0.508671 8.71395 0.508671 7.62003 1.14233 6.87646L1.70093 6.22119C1.97247 5.90256 2.13638 5.5057 2.16968 5.08838L2.23804 4.22998C2.31575 3.25613 3.08938 2.4825 4.06323 2.40479L4.92163 2.33643C5.33895 2.30312 5.73581 2.13921 6.05444 1.86768L6.70972 1.30908Z"/>
+                        </svg>
+                        Completed
+                    </a>
+                </div>
+                <!---<div class="login">
+                    <a href="" class="SignIn">Sign In</a>
+                    <a href="" class="SignUp">Sign Up</a>
+                </div>--->
+                <div class="mini-profile">
+                    <a href="" class="mini-profile_ava">
+                        <img src="images/ava.jpg" alt="">
+                    </a>
+                    <div class="mini-profile_login">
+                        Step3 Designer
+                    </div>
+                    <div class="mini-profile_balance">
+                        <span class="mini-profile_balance_txt">Balance:</span>
+                        <span class="mini-profile_balance_summ">230</span>
+                        <span class="mini-profile_balance_rub">₽</span>
+                        <a href="" class="mini-profile_balance_ico">
+                            <svg width="7" height="12" viewBox="0 0 7 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M0.758048 0.650678C0.461555 0.887872 0.413484 1.32051 0.650678 1.617L3.97376 5.77086L0.650678 9.92472C0.413484 10.2212 0.461554 10.6538 0.758047 10.891C1.05454 11.1282 1.48718 11.0802 1.72437 10.7837L5.39104 6.20034C5.59191 5.94925 5.59191 5.59247 5.39104 5.34138L1.72437 0.758048C1.48718 0.461555 1.05454 0.413484 0.758048 0.650678Z" fill="white" stroke="white" stroke-linecap="round" stroke-linejoin="round" />
+                            </svg>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="video">
+            <video src="video/video.mp4" autoplay muted loop></video>
+            <div class="video-title">
+                <p>The Future of</p>
+                <p>Betting is Digital</p>
+            </div>
+            <div class="video-text">
+                Bet on your favorite team live with SibBet
+            </div>
+            <div class="cat">
+                <a href="" class="cat_cs2">CS2</a>
+                <a href="" class="cat_dota2">Dota 2</a>
+                <a href="" class="cat_others">Others</a>
+            </div>
+            <a href="#" class="video-btn btn" onclick="$('html, body').animate({scrollTop: $('#LiveGames').offset().top - 100}, 350); return false;">
+                Live Games
+            </a>
+        </div>
+        <main class="container fixed">
+            <div class="news-overflow">
+                <div class="news">
+                    <div class="news-item">
+                        <div class="news-images">
+                            <a href="">
+                                <img src="images/news.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="news-title">
+                            IOS and Android Apps
+                        </div>
+                        <div class="news-text">
+                            The App will soon be available for all operation system. BETA testing continues and we invite you to participate in testing. Read more in our social networks.
+                        </div>
+                    </div>
+                    <div class="news-item">
+                        <div class="news-images">
+                            <a href="">
+                                <img src="images/news.webp" alt="">
+                            </a>
+                        </div>
+                        <div class="news-title">
+                            IOS and Android Apps
+                        </div>
+                        <div class="news-text">
+                            The App will soon be available for all operation system. BETA testing continues and we invite you to participate in testing. Read more in our social networks.
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="items-wrap">
+                <div class="items" id="LiveGames">
+                    <div class="items-panel">
+                        <div class="items-title">
+                            Live Games
+                        </div>
+                        <div class="cat">
+                            <a href="" class="cat_cs2">CS2</a>
+                            <a href="" class="cat_dota2">Dota 2</a>
+                            <a href="" class="cat_others">Others</a>
+                        </div>
+                    </div>
+                    <div class="items-grid">
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="red" item-proc="30.00%">
+                                        0.30
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="green" item-proc="70.00%">
+                                        0.70
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game dota2">
+                                        DOTA 2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <div class="item-panel_time">
+                                        23.06 20:00
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof no-bg" item-color="green" item-proc="99,01%">
+                                       2
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof no-bg" item-color="red" item-proc="79,55%" style="color: #59627e;">
+                                       1
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="btn2 ShowMore">
+                        Show More
+                    </a>
+                </div>
+                <div class="items" id="Upcoming">
+                    <div class="items-panel">
+                        <div class="items-title">
+                            Upcoming
+                        </div>
+                        <div class="cat">
+                            <a href="" class="cat_cs2">CS2</a>
+                            <a href="" class="cat_dota2">Dota 2</a>
+                            <a href="" class="cat_others">Others</a>
+                        </div>
+                    </div>
+                    <div class="items-grid">
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="btn2 ShowMore">
+                        Show More
+                    </a>
+                </div>
+                <div class="items" id="Completed">
+                    <div class="items-panel">
+                        <div class="items-title">
+                            Completed
+                        </div>
+                        <div class="cat">
+                            <a href="" class="cat_cs2">CS2</a>
+                            <a href="" class="cat_dota2">Dota 2</a>
+                            <a href="" class="cat_others">Others</a>
+                        </div>
+                    </div>
+                    <div class="items-grid">
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div class="itam-panel">
+                                <div class="item-panel_l">
+                                    <div class="item-panel_info">
+                                        Live Game
+                                    </div>
+                                </div>
+                                <div class="item-panel_c">
+                                    <div class="item-panel_game cs2">
+                                        CS2
+                                    </div>
+                                    <div class="item-panel_txt">
+                                        Best of 3
+                                    </div>
+                                </div>
+                                <div class="item-panel_r">
+                                    <a href="" class="item-panel_Watch">
+                                        Watch
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="item-info">
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team One
+                                    </div>
+                                </div>
+                                <div class="item-info_Team">
+                                    <div class="item-info_Team_IMG">
+                                        <img src="images/g2-esports-1024x576.png" alt="">
+                                    </div>
+                                    <div class="item-info_Team_NAME">
+                                        Team Two
+                                    </div>
+                                </div>
+                                <div class="item-info_CENTER">
+                                    <div class="item-info_cof" item-color="green" item-proc="99,01%">
+                                        0.82
+                                    </div>
+                                    <div class="item-info_line"></div>
+                                    <div class="item-info_cof" item-color="red" item-proc="79,55%">
+                                        0.82
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a href="" class="btn2 ShowMore">
+                        Show More
+                    </a>
+                </div>
+            </div>
+        </main>
+        <footer class="footer">
+            <div class="fixed">
+                <div class="footer-pole">
+                    <div class="footer-logo"></div>
+                    <p class="footer-txt">
+                        © 2022-2025. Cybersport betting. All rights reserved. By placing bets, you agree to the user <a href="">agreement</a>.
+                    </p>
+                </div>
+                <div class="footer-nav">
+                    <p class="footer-nav_title">
+                        Support
+                    </p>
+                    <div class="footer-nav_list">
+                        <a href="">Telegram</a>
+                        <a href="">Online Support</a>
+                        <a href="">Support@s1b.org</a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <p class="footer-nav_title">
+                        xSibBet
+                    </p>
+                    <div class="footer-nav_list">
+                        <a href="">Terms of Service</a>
+                        <a href="">Privacy</a>
+                        <a href="">Responsible Gaming</a>
+                    </div>
+                </div>
+                <div class="footer-nav">
+                    <p class="footer-nav_title">
+                        Information
+                    </p>
+                    <div class="footer-nav_list">
+                        <a href="">F.A.Q</a>
+                        <a href="">Bonuses</a>
+                    </div>
+                </div>
+                <div class="footer-ico">
+                    <a href="">
+                        <svg width="20" height="18" viewBox="0 0 20 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                            <path d="M20 14C19.9999 16.209 18.209 17.9999 16 18H4C1.79092 18 9.4449e-05 16.2091 0 14V5.96289L7.05957 11.0977C8.81269 12.3723 11.1874 12.3724 12.9404 11.0977L20 5.96289V14ZM16 0C18.0441 8.75745e-05 19.7283 1.53347 19.9688 3.5127L11.7646 9.48047C10.7128 10.2454 9.28727 10.2454 8.23535 9.48047L0.0302734 3.5127C0.27065 1.53338 1.9558 0 4 0H16Z" fill="#171A24" />
+                        </svg>
+                    </a>
+                    <a href="">
+                        <svg width="22" height="18" viewBox="0 0 22 18" fill="none" xmlns="http://www.w3.org/2000/svg" style="transform: translate(-1px, 0px);">
+                            <path fill-rule="evenodd" clip-rule="evenodd" d="M1.48757 7.76343C7.31847 5.23115 11.2002 3.54852 13.1494 2.73219C18.6971 0.416493 19.8632 0.0166597 20.6129 0C20.7795 0 21.146 0.0333197 21.3959 0.233236C21.5959 0.399834 21.6458 0.61641 21.6792 0.783008C21.7125 0.949605 21.7458 1.29946 21.7125 1.56601C21.4126 4.73136 20.1131 12.4115 19.4468 15.9434C19.1635 17.4427 18.6138 17.9425 18.0807 17.9925C16.9145 18.0925 16.0315 17.2262 14.9153 16.4931C13.1494 15.3436 12.1665 14.6272 10.4505 13.4944C8.46799 12.1949 9.75079 11.4786 10.8837 10.3124C11.1835 10.0125 16.2981 5.34777 16.398 4.93128C16.4147 4.8813 16.4147 4.68138 16.2981 4.58142C16.1814 4.48147 16.0148 4.51479 15.8816 4.5481C15.6983 4.58142 12.8995 6.44731 7.45175 10.1291C6.65208 10.6789 5.93572 10.9454 5.28599 10.9288C4.56962 10.9121 3.20352 10.5289 2.17062 10.1958C0.921139 9.79592 -0.0784445 9.57934 0.00485417 8.87963C0.0548333 8.51312 0.554625 8.14661 1.48757 7.76343Z" fill="#171A24" />
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
 </html>
