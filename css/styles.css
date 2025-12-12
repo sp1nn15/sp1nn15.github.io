@@ -92,7 +92,7 @@ a:hover {
 }
 
 .video {
-	height: 724px;
+	height: calc(100vh - var(--header));
 	background-image: url('../images/video.webp');
 	background-size: cover;
 	background-position: center;
